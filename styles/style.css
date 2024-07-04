@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind custom components */
+@layer components {
+  .bg-gradient {
+    @apply bg-gradient-to-tr from-[#007bff] to-[#00103F];
+  }
+  .tab {
+    @apply sm:text-xl text-lg px-4 py-2 w-fit rounded-lg capitalize border border-solid border-[#d8d5f2] cursor-pointer transition-all duration-300 sm:text-xl text-lg px-4 py-2 w-fit rounded-lg capitalize border border-solid border-[#d8d5f2] cursor-pointer transition-all duration-300;
+  }
+}
